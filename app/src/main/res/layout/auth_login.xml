@@ -8,6 +8,18 @@
     tools:ignore="ResAuto">
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/upheavalfont"
+        android:text="Doesn't an account? Sign in"
+        android:textColor="@color/main_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
         android:id="@+id/textView"
         style="@style/heading_text"
         android:layout_width="wrap_content"
@@ -92,5 +104,7 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

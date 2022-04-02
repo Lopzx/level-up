@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        Untuk sementara di auth_login nanti ganti kembali ke mainactivity
-        setContentView(R.layout.auth_login);
+        setContentView(R.layout.activity_main);
 
 
     }
