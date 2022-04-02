@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">LevelUp</string>
     <!--FORM-->
+    <string name="input_username_hint">Username</string>
     <string name="input_email_hint">Email</string>
     <string name="input_password_hint">Password</string>
+    <string name="input_reenterpassword_hint">Re-enter Password</string>
 </resources>
